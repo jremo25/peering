@@ -1,0 +1,18 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform lock files
+*.terraform.lock.hcl*
+
+# Ignore .terraform directories
+**/.terraform/*
+
+# Ignore Terragrunt cache
+**/.terragrunt-cache/*
+
+# Ignore executable files
+*.exe
+
+# Ignore local environment files
+.env
